@@ -2,3 +2,5 @@ numpy==1.24.3
 pandas==1.5.3
 inflection==0.5.1
 Flask==2.2.2
+requests==2.29.0
+responses==0.13.3
