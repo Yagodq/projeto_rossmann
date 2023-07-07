@@ -1,5 +1,5 @@
 # **Rede de Farmácias Rossmann - Previsão de Vendas**
-![](img/rossmann.jpg)
+![](img/ross.jpg)
 
 Contexto: A Rossmann opera mais de 3.000 drogarias em 7 países europeus, com cerca de 56 mil colaboradores. A empresa disponibilizou mais de 1 milhão de registros de vendas em uma competição de dados no Kaggle, buscando prever suas vendas de forma precisa e assertiva.
 
