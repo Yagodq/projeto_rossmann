@@ -1,5 +1,5 @@
 # **Rede de Farmácias Rossmann - Previsão de Vendas**
-![](img/rossmann.jpg)
+![](img/ross.jpg)
 
 Contexto: A Rossmann opera mais de 3.000 drogarias em 7 países europeus, com cerca de 56 mil colaboradores. A empresa disponibilizou mais de 1 milhão de registros de vendas em uma competição de dados no Kaggle, buscando prever suas vendas de forma precisa e assertiva.
 
@@ -109,6 +109,13 @@ O algoritmo XGBoost Regressor foi escolhido em vez do Random Forest Regressor pe
 ### 5.2 Resultado do Modelo Treinado
 
 O algoritmo selecionado para produção foi o XGBoost Regressor, com um erro absoluto médio (MAE) de €760  e um erro absoluto médio percentual ( MAPE) de 0,11 após a validação cruzada. Isso significa que, em média, o modelo tem um erro de €760 por dia em cada previsão para um período de 6 semanas, com uma margem de erro de aproximadamente 11%.
+
+![](img/final_model.png)
+
+O gráfico abaixo demonstra a comparação entre as vendas reais e os valores previstos pelo modelo ao longo das 6 semanas.
+
+![](img/predi.png)
+
 
 ## 6. Resultado de Negócio
 
